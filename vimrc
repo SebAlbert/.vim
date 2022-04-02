@@ -5,6 +5,7 @@
 :set shiftround
 :set number
 :filetype plugin indent on
+:set wildmenu
 
 :inoremap <Leader>u <Esc>gUawea
 :nnoremap <Leader>.e :vsp $MYVIMRC<CR>
