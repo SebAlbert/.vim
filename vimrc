@@ -52,6 +52,13 @@ autocmd FileType vim setlocal foldmethod=marker
 augroup END
 " }}}
 
+" Haskell file settings {{{
+augroup filetype_haskell
+autocmd!
+autocmd FileType haskell setlocal et
+augroup END
+" }}}
+
 " operator pending mappings {{{
 onoremap in( :<C-u>normal! f(vi(<CR>
 onoremap il( :<C-u>normal! F)vi(<CR>
