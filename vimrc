@@ -6,6 +6,7 @@
 :set number
 :filetype plugin indent on
 :set wildmenu
+:syntax on
 
 :inoremap <Leader>u <Esc>gUawea
 :nnoremap <Leader>.e :vsp $MYVIMRC<CR>
@@ -19,6 +20,7 @@
 
 highlight LineNr ctermbg=LightCyan ctermfg=black
 highlight Folded cterm=bold ctermbg=White ctermfg=DarkGrey
+highlight Visual ctermbg=Grey
 
 " Highlight trailing whitespace and characters beyond column 79 {{{
 
